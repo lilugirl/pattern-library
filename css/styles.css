@@ -1,0 +1,34 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serifelvetica, Aria, sans-serif;
+}
+
+/*
+Media
+
+Dsiplays an image on the left and body content on the right.
+
+Markup:
+<div class="media">
+  <img class="media__image" 
+    src="http://palcehold.it/150*150" />
+  <div class="media__body"></div> 
+</div>
+
+Styleguide Media
+*/
+
+.media {
+  padding: 1.5em;
+  background-color: #eee;
+  border-radius: 0.5em;
+}
